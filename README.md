@@ -132,3 +132,8 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 Made with ❤️ by Ritesh Kumar Singh.
 
+📺 Demo
+Check out the live demo of the portfolio:
+
+👉 Live Demo on Netlify
+
