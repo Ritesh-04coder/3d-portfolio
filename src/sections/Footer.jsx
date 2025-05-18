@@ -7,16 +7,30 @@ const Footer = () => {
         <div className="flex flex-col justify-center">
           <p>Terms & Conditions</p>
         </div>
-        <div className="socials">
+
+        <div className="socials flex gap-4">
           {socialImgs.map((socialImg, index) => (
-            <div key={index} className="icon">
-              <img src={socialImg.imgPath} alt="social icon" />
-            </div>
+            <a
+              key={index}
+              href={socialImg.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="icon hover:opacity-80 transition duration-200"
+            >
+              <img
+                src={socialImg.imgPath}
+                alt={`${socialImg.name} icon`}
+                className={
+                  socialImg.name === "github" ? "w-9 h-9" : "w-6 h-6"
+                }
+              />
+            </a>
           ))}
         </div>
+
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Adrian Hajdin. All rights reserved.
+            © {new Date().getFullYear()} Ritesh Kumar Singh. All rights reserved.
           </p>
         </div>
       </div>
