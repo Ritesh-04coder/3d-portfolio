@@ -48,6 +48,21 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-9.png",
   },
+   {
+    imgPath: "/images/logos/company-logo-11.png",
+  },
+   {
+    imgPath: "/images/logos/company-logo-1.png",
+  },
+   {
+    imgPath: "/images/logos/company-logo-7.png",
+  },
+   {
+    imgPath: "/images/logos/company-logo-6.png",
+  },
+   {
+    imgPath: "/images/logos/company-logo-9.png",
+  },
 ];
 
 const abilities = [
@@ -99,7 +114,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Next-Js Developer",
+    name: "Python Developer",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
