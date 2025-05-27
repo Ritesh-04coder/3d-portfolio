@@ -135,6 +135,6 @@ Made with ❤️ by Ritesh Kumar Singh.
 
 Check out the live demo of the portfolio:
 
-👉 **[Live Demo on Netlify](https://riteshportf.netlify.app/)**
+👉 **[Live Demo on Netlify]([https://riteshportf.netlify.app/](https://ritjargon.netlify.app/))**
 
 
